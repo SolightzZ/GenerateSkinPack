@@ -583,10 +583,10 @@ footer {
 
   .hero-content {
     max-width: 85%; /* ลดความกว้างลง */
-    padding: 15px; /* ลด padding */
+    padding: 20px; /* ลด padding */
   }
   .hero-buttons {
-    gap: 12px; /* ลดระยะห่างระหว่างปุ่ม */
+    gap: 20px; /* ลดระยะห่างระหว่างปุ่ม */
   }
 }
 
@@ -625,7 +625,7 @@ footer {
 
   .hero-content {
     max-width: 80%; /* ลดความกว้างลงอีก */
-    padding: 15px;
+    padding: 20px;
   }
 
   .hero h1 {
@@ -662,7 +662,7 @@ footer {
 @media (max-width: 480px) {
   .hero-content {
     max-width: 90%; /* คง 90% แต่ลด padding */
-    padding: 10px; /* ลด padding ลง */
+    padding: 20px; /* ลด padding ลง */
   }
 
   .hero-buttons {
