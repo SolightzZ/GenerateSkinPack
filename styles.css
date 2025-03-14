@@ -543,8 +543,8 @@ body {
 }
 
 /* ==========================================================================
-     Footer
-     ========================================================================== */
+   Footer
+   ========================================================================== */
 footer {
   padding: 30px;
   background: rgba(15, 20, 21, 0.9);
@@ -553,7 +553,6 @@ footer {
   color: #808080;
   font-size: 0.8em;
 }
-
 /* ==========================================================================
      Responsive Design
      ========================================================================== */
@@ -580,6 +579,14 @@ footer {
 
   .hero p {
     font-size: 1.1em;
+  }
+
+  .hero-content {
+    max-width: 85%; /* ลดความกว้างลง */
+    padding: 15px; /* ลด padding */
+  }
+  .hero-buttons {
+    gap: 12px; /* ลดระยะห่างระหว่างปุ่ม */
   }
 }
 
@@ -617,8 +624,8 @@ footer {
   }
 
   .hero-content {
-    max-width: 95%;
-    padding: 1px;
+    max-width: 80%; /* ลดความกว้างลงอีก */
+    padding: 15px;
   }
 
   .hero h1 {
@@ -630,8 +637,7 @@ footer {
   }
 
   .hero-buttons {
-    flex-direction: column;
-    gap: 10px;
+    gap: 8px;
   }
 
   .features,
@@ -654,6 +660,15 @@ footer {
 }
 
 @media (max-width: 480px) {
+  .hero-content {
+    max-width: 90%; /* คง 90% แต่ลด padding */
+    padding: 10px; /* ลด padding ลง */
+  }
+
+  .hero-buttons {
+    gap: 8px; /* ลด gap ลงอีก */
+  }
+
   .navbar {
     padding: 10px 15px;
   }
@@ -685,9 +700,9 @@ footer {
     font-size: 0.9em;
   }
 
-  .btn {
-    padding: 8px 20px;
-    font-size: 0.9em;
+  .pack-card .btn {
+    padding: 6px 12px; /* ปรับปุ่มใน pack-card ให้สั้นลง */
+    font-size: 0.7em; /* ลดขนาดตัวอักษรใน pack-card */
   }
 
   .features-header h2,
