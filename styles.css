@@ -117,7 +117,7 @@ body {
   position: relative;
   z-index: 2;
   text-align: center;
-  padding: 20px;
+  padding: 25px;
   background: rgba(28, 37, 38, 0.7);
   backdrop-filter: blur(8px);
   border-radius: 8px;
@@ -582,8 +582,8 @@ footer {
   }
 
   .hero-content {
-    max-width: 85%; /* ลดความกว้างลง */
-    padding: 20px; /* ลด padding */
+    max-width: 90%; /* ลดความกว้างลง */
+    padding: 25px; /* ลด padding */
   }
   .hero-buttons {
     gap: 20px; /* ลดระยะห่างระหว่างปุ่ม */
@@ -624,8 +624,8 @@ footer {
   }
 
   .hero-content {
-    max-width: 80%; /* ลดความกว้างลงอีก */
-    padding: 20px;
+    max-width: 90%; /* ลดความกว้างลงอีก */
+    padding: 25px;
   }
 
   .hero h1 {
@@ -661,8 +661,8 @@ footer {
 
 @media (max-width: 480px) {
   .hero-content {
-    max-width: 90%; /* คง 90% แต่ลด padding */
-    padding: 20px; /* ลด padding ลง */
+    max-width: 95%; /* คง 90% แต่ลด padding */
+    padding: 25px; /* ลด padding ลง */
   }
 
   .hero-buttons {
